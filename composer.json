@@ -1,5 +1,5 @@
 {
-    "name": "websms-com/websmscom-php",
+    "name": "websms-com/websmscom-php-appmonkey",
     "description": "A lightweight PHP-client-library for using websms.com SMS services.",
     "type": "library",
     "license": "MIT",
