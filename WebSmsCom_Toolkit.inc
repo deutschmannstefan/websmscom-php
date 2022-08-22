@@ -330,7 +330,7 @@ class WebSmsCom_Client {
         curl_setopt($curlHandle,CURLOPT_POSTFIELDS    , $request_data['content']);
         curl_setopt($curlHandle,CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curlHandle,CURLOPT_HEADER        , true);
-        curl_setopt($curlHandle, CURLOPT_SSLVERSION, CURL_SSLVERSION_MAX_TLSv1_2);
+        curl_setopt($curlHandle, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
     
         curl_setopt($curlHandle,CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curlHandle,CURLOPT_SSL_VERIFYHOST, $this->sslVerifyHost);
